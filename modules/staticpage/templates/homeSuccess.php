@@ -4,7 +4,7 @@
 
 	  <?php $cacheKey = 'homepage-nav-'.$sf_user->getCulture() ?>
 	  <?php if (!cache($cacheKey)): ?>
-		<div class="span6" id="homepage-nav">
+		<div class="span5" id="homepage-nav">
 		  <h2><?php echo __('Browse by') ?></h2>
 		  <ul>
 			<?php $icons = array(
@@ -33,7 +33,7 @@
 		<?php cache_save($cacheKey) ?>
 	  <?php endif; ?>
 
-	  <div class="span4" id="intro">
+	  <div class="span6" id="intro">
 	  
 	 <!-- 
 		<div class="page">
@@ -50,19 +50,24 @@
 		  <?php end_slot() ?>
 		<?php endif; ?>
 	  -->
+	  
 		<?php if ('pt_BR' == $sf_user->getCulture()): ?>
-		
-		  <h2>
-			<span class="title">ACERVO HISTÓRICO</span>
-			<br>O que é o Lorem Ipsum?
-		  </h2>
-		  <p> O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro. Este texto não só sobreviveu 5 séculos, mas também o salto para a tipografia electrónica, mantendo-se essencialmente inalterada. Foi popularizada nos anos 60 com a disponibilização das folhas de Letraset, que continham passagens com Lorem Ipsum, e mais recentemente com os programas de publicação como o Aldus PageMaker que incluem versões do Lorem Ipsum.</p>
+		 <h2>
+			<span class="title">CEDHIS/UENP</span>
+			<span class="subtitle">Centro de Documentação Histórica</span>
+		</h2>
+			<p> O Centro de Documentação Histórica (CEDHIS) da Universidade Estadual do Norte do Paraná tem por objetivo recolher, guardar e preservar o patrimônio documental da região nordeste do Paraná, a fim de servir de apoio à pesquisa. Dessa forma, busca-se a preservação e (re) construção da história e da memória do chamado “norte pioneiro”, para além das memórias das elites, inscrevendo nelas também as experiências dos mais diversos grupos sociais e étnicos, presentes na história da região.</p>
+			<p> Ao se preocupar em preservar as experiências de todos os cidadãos, o CEDHIS desempenha importante papel político em uma sociedade democrática que deve possibilitar que haja, nas disputas pelas memórias, minimamente, equanimidade de forças e resistência entre os diferentes grupos no e pelo poder.</p>
+			<p>Assim, o CEDHIS tem a importante função de possibilitar a reconstrução da história da região nordeste do Paraná incluindo os diferentes atores que dela participaram, ricos e pobres, fazendeiros, sitiantes e colonos, políticos, médicos, pedreiros, lavadeiras, prostitutas, negros, brancos e índios, imigrantes e migrantes. Enfim, todos os sujeitos sobre os quais restaram vestígios que possam ser preservados em um centro de documentação.</p>
 		<?php else: ?>
-		  <h2>
-			<span class="title">CEDHIS UENP</span>
-			<br>Lorem ipsum
-		  </h2>
-		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis sapien sit amet ante maximus dictum. Nulla lobortis risus neque, eget imperdiet libero placerat id. Mauris ut sodales dui. Quisque interdum velit at porttitor tempor. Nulla in est risus. Proin cursus arcu eget scelerisque dignissim. Fusce non metus sodales, dignissim dolor et, accumsan elit. Cras quis tincidunt ante, non porttitor justo. Quisque tellus lorem, suscipit tincidunt massa at, aliquam convallis risus. Phasellus dignissim in tortor at dictum. Curabitur efficitur urna sed magna suscipit malesuada ut in risus. Nunc euismod elementum convallis. Maecenas volutpat fermentum neque, malesuada mattis dui sagittis at. Donec cursus ipsum a velit rhoncus, vitae vehicula velit maximus.</p>
+		<h2>
+			<span class="title">CEDHIS/UENP</span>
+			<span class="subtitle">Centro de Documentação Histórica</span>
+		</h2>
+			<p> O Centro de Documentação Histórica (CEDHIS) da Universidade Estadual do Norte do Paraná tem por objetivo recolher, guardar e preservar o patrimônio documental da região nordeste do Paraná, a fim de servir de apoio à pesquisa. Dessa forma, busca-se a preservação e (re) construção da história e da memória do chamado “norte pioneiro”, para além das memórias das elites, inscrevendo nelas também as experiências dos mais diversos grupos sociais e étnicos, presentes na história da região.</p>
+			<p> Ao se preocupar em preservar as experiências de todos os cidadãos, o CEDHIS desempenha importante papel político em uma sociedade democrática que deve possibilitar que haja, nas disputas pelas memórias, minimamente, equanimidade de forças e resistência entre os diferentes grupos no e pelo poder.</p>
+			<p>Assim, o CEDHIS tem a importante função de possibilitar a reconstrução da história da região nordeste do Paraná incluindo os diferentes atores que dela participaram, ricos e pobres, fazendeiros, sitiantes e colonos, políticos, médicos, pedreiros, lavadeiras, prostitutas, negros, brancos e índios, imigrantes e migrantes. Enfim, todos os sujeitos sobre os quais restaram vestígios que possam ser preservados em um centro de documentação.</p>
+			
 		<?php endif; ?>
 		
 	  </div>

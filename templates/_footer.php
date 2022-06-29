@@ -19,7 +19,11 @@
 	  </div>
 	  
 	  <div class="span6" id="footer2">
-	  
+		<a id="logo" href="https://nti.uenp.edu.br" title="Núcleo de Tecnologia da Informação"><img alt="NTI-UENP" src="/plugins/arDominionUenpPlugin/images/logo-nti.png"></a>	  
+		<p><span class="title">Núcleo de Tecnologia da Informação NTI</span></p>
+		<p>Desenvolvido com <span style="color:red">❤</span> por Rogério Matsui Guenta <br>
+            Utilizando <a href="https://www.accesstomemory.org/pt-br/" target="_blank">Access to Memory- AtoM</a>
+		</p>
 	  </div>
   
   </div>
